@@ -1,12 +1,15 @@
 {
   "name": "electrical",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ระบบแจ้งซ่อมไฟฟ้า",
+  "main": "server_2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server_2.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
 }
